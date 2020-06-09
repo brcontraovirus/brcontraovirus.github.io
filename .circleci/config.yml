@@ -60,7 +60,7 @@ jobs:
 
 workflows:
   version: 2
-  front-backend:
+  frontend:
     jobs:
       - build
       - lint:
